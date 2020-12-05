@@ -1,7 +1,8 @@
 import logging
 import unittest
 from definitions import NAME, VERSION
-from realpolitik.command import DM_COMMAND_HANDLER, CHANNEL_COMMAND_HANDLER, parse_command
+from realpolitik.command import parse_command
+from realpolitik.handlers import DM_COMMAND_HANDLER, CHANNEL_COMMAND_HANDLER
 
 logging.disable(logging.CRITICAL)
 
