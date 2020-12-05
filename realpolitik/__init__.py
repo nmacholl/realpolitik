@@ -1,1 +1,0 @@
-from .diplomat import Diplomat

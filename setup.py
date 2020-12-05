@@ -1,5 +1,5 @@
 from setuptools import setup
-from definitions import (
+from config import (
     NAME,
     VERSION,
     PACKAGES,
